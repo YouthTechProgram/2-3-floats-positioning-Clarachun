@@ -15,4 +15,4 @@ Your goal is to recreate the following pattern with nothing but HTML and CSS. I 
 - Light green - #7ED322
 - White - #FFFFFF
 
-![Layout goal](https://github.com/allejo/metalab-challenge-1/blob/gh-pages/layout-challenge-on-your-own.png)
+![Layout goal](https://raw.githubusercontent.com/YouthTechProgram/2.2-floats-positioning/master/layout-challenge-on-your-own.png)
