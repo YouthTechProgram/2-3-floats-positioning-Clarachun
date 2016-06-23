@@ -1,25 +1,29 @@
-<style>
     .row { width: 1000px; }
     .row:after { content: ""; display: table; clear: both; } /* Clearfix hack */
 
     /* Height classes */
     .col-h-1 { height: 50px; }
     .col-h-2 { height: 100px; }
-    .col-h-3 { height: 150px; }
-    .col-h-4 { height: 200px; }
-    .col-h-5 { height: 400px; }    
+    .col-h-3 { height: 200px; }
+    .col-h-4 { height: 400px; }
+    .col-h-5 { height: 150px; }
 
     /* Width classes */
-    .col-w-1, .col-w-2,
-    .col-w-3, .col-w-4 {
+    .col-h-1, .col-h-2, .col-h-3, .col-h-4, .col-h-5 {
+        float: left;
+        position: relative;
+    }
+    /* Width classes */
+    .col-w-1, .col-w-2, .col-w-3, .col-w-4, .col-w-5 {
         float: left;
         position: relative;
     }
     .col-w-1 { width: 50px; }
     .col-w-2 { width: 100px; }
-    .col-w-3 { width: 150px; }
-    .col-w-4 { width: 200px; }
-    .col-w-5 { width: 400px; }
+    .col-w-3 { width: 200px; }
+    .col-w-4 { width: 400px; }
+    .col-w-5 { width: 150px; }
+    .col-w-6 { width: 300px; }
 
     /* Color classes */
     .color-blue    { background-color: #4990e2; }
@@ -29,9 +33,8 @@
     .color-red   { background-color: #CE1126; }
     .color-teal   { background-color: #4FE3C2; }
     .color-purple   { background-color: #B413DB; }
-    .color-orange   { background-color: #8F13FE; }
+    .color-orange   { background-color: #F4A523; }
     .color-dark-green   { background-color: #417505; }
     .color-lavender   { background-color: #8F13FE; }
     .color-light-green   { background-color: #7ED322; }
     .color-white  { background-color: #FFFFFF; }
-</style>
