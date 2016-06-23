@@ -1,45 +1,57 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <link rel="stylesheet" href="styles.css" >
-    </head>
-
-    <body>
 <style>
     .col-absolute {
         position: absolute;
     }
 
     .col-center {
-        right: 50px;
-        top: 75px;
-        overflow: auto;
-        margin: auto;
+        bottom: 75px;
+        left: 150px;
 
         z-index: 1;
     }
 
     .col-left {
         top: 75px;
-        left: 50px;
+        left: 25px;
     }
 
     .col-right {
         bottom: 75px;
-        right: 50px;
+        right: 25px;
     }
+    .col-bottom-right {
+        bottom: 0px;
+        right: 0px;
+    }    
+    .col-top-left {
+        top: 0px;
+        right: 0px;
+    }
+    .col-top-right {
+        top: 0px;
+        right: 0px;
+    }    
+    .col-bottom-left {
+        bottom: 0px;
+        left: 0px;
+    }    
 </style>
 
 <div class="row">
-    <div class="col-w-5 col-h-3 color-blue">
-        <div class="col-w-1 col-h-1 col-absolute col-left color-dark grey"></div>
-        <div class="col-w-2 col-h-1 col-absolute col-center color-dark grey"></div>
-        <div class="col-w-1 col-h-1 col-absolute col-right color-dark grey"></div>
+    <div class="col-w-5 col-h-4 color-blue">
+        <div class="col-w-2 col-h-1 col-absolute col-center color-dark-grey"></div>
+        <div class="col-w-1 col-h-1 col-absolute col-left color-dark-grey"></div>
+        <div class="col-w-1 col-h-1 col-absolute col-right color-dark-grey"></div>
     </div>
-    <div class="col-w-1 col-h-3 color-blue"></div>
+    <div class="col-w-4 col-h-4 color-yellow">
+        <div class="col-w-1 col-h-1 col-absolute col-top-left color-dark-grey"></div>
+        <div class="col-w-1 col-h-1 col-absolute col-bottom-right color-dark-grey"></div>
+    </div>    
+    <div class="col-w-4 col-h-4 color-light-grey">
+        <div class="col-w-1 col-h-1 col-absolute col-center color-dark-grey"></div>
+    </div>        
+    <div class="col-w-1 col-h-3 color-red"></div>
     <div class="col-w-2 col-h-1 color-blue"></div>
     <div class="col-w-2 col-h-1 color-green"></div>
     <div class="col-w-2 col-h-1 color-red"></div>
 </div>
-    </body>
-</html>
