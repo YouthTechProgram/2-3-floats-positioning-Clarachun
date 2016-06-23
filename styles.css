@@ -4,9 +4,10 @@
 
     /* Height classes */
     .col-h-1 { height: 50px; }
-    .col-h-2 { height: 100px; }
-    .col-h-3 { height: 150px; }
-    .col-h-4 { height: 200px; }
+    .col-h-3 { height: 75px; }
+    .col-h-3 { height: 100px; }
+    .col-h-4 { height: 150px; }
+    .col-h-5 { height: 200px; }
 
     /* Width classes */
     .col-w-1, .col-w-2,
